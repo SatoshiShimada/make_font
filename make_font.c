@@ -24,7 +24,8 @@ int main(int argc, char *argv[])
 		return -1;
 	}
 
-	fprintf(fout, "unsigned short fontdata[] = {\n\t");
+	//fprintf(fout, "unsigned short fontdata[] = {\n\t");
+	fprintf(fout, "unsigned short font_bitmap_data[] = {\n\t");
 	fprintf(fout, "/* %d */\n\t", number++);
 
 	do {
