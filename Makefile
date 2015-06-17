@@ -7,3 +7,6 @@ make_font: make_font.c
 
 font: make_font font_16x16.txt
 	./make_font font_16x16.txt font_data.c
+
+
+# Done
