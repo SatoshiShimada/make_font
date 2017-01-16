@@ -1,11 +1,18 @@
 
+/*
+ * This program is create font data from text data for my operating system.
+ *
+ * Author: Satoshi SHIMADA
+ * Date: 31 May. 2015
+ */
+
 #include <stdio.h>
 
 int main(int argc, char *argv[])
 {
 	FILE *fin, *fout;
 	char buf[1024];
-	unsigned short font;
+	unsigned short font = 0;
 	int i, number = 0;
 
 	if(argc != 3) {
@@ -56,3 +63,4 @@ int main(int argc, char *argv[])
 
 	return 0;
 }
+
